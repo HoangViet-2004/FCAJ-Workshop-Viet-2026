@@ -5,53 +5,25 @@ weight: 1
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Master basic networking concepts on AWS (VPC, Subnet, Route Table, Internet Gateway).
+* Set up network-level security with Network ACLs and Security Groups.
+* Connect and route traffic between multiple VPCs via VPC Peering and Transit Gateway.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task                                                                                                                                                                                        | Start Date | Completion Date | Reference Material                        |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
+| 2   | - Learn basic network architecture: <br> &emsp; + Initialize VPC & Subnets <br> &emsp; + Configure Internet Gateway                                                                        | 27/04/2026 | 27/04/2026      | <https://000003.awsstudygroup.com/> |
+| 3   | - Network authorization and security: <br> &emsp; + Configure Network ACLs <br> &emsp; + Setup Outbound Route Tables                                                                       | 28/04/2026 | 28/04/2026      | <https://000003.awsstudygroup.com/> |
+| 4   | - Practice secure access: <br> &emsp; + Create EC2 Instance Connect Endpoint <br> &emsp; + Connect to Remote Desktop Gateway (RDGW) and test results                                        | 29/04/2026 | 29/04/2026      | <https://000010.awsstudygroup.com/> |
+| 5   | - Resource creation and connectivity: <br> &emsp; + Create EC2 instances in 2 different VPCs <br> &emsp; + Practice VPC Peering, test ping, and clean up                                   | 30/04/2026 | 30/04/2026      | <https://000019.awsstudygroup.com/> |
+| 6   | - Create Transit Gateway and attachments <br> - Configure Route Tables to connect 4 VPCs, perform ping test, and clean up resources                                                        | 01/05/2026 | 01/05/2026      | <https://000020.awsstudygroup.com/> |
 
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Clearly distinguished the differences between and successfully configured Security Groups and Network ACLs.
+* Set up secure routing using EC2 Instance Connect Endpoint and RDGW without requiring a public IP.
+* Deployed VPC Peering (2 VPCs) and AWS Transit Gateway acting as a central Cloud Router (4 VPCs).

@@ -5,53 +5,22 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 7 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Learn and practice services related to Data Analytics and ETL pipelines on AWS (such as AWS Glue, DataBrew, EMR, Athena, Kinesis).
+* Deploy NoSQL database, build Serverless application with DynamoDB, and practice data visualization via charts on QuickSight.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Initialize S3 Bucket, set up Delivery Stream, create sample data, and configure Glue Crawler. <br> - Query data with Athena, test basic visualization, and clean up resources. | 01/06/2026 | 01/06/2026 | <https://000035.awsstudygroup.com/> |
+| 3 | - Explore DynamoDB, practice backup, and design Serverless/Event-Driven application architecture. <br> - Prepare database, analyze costs (Cost), and configure Tagging. | 02/06/2026 | 02/06/2026 | <https://000039.awsstudygroup.com/> <br> <br> <https://000040.awsstudygroup.com/> |
+| 4 | - Operate via CloudShell, Console, SDK, and create Cloud9 environment. <br> - Upload dataset to S3, use DataBrew for inspection (Data Profiling), clean and transform data. | 03/06/2026 | 03/06/2026 | <https://000060.awsstudygroup.com/> <br> <br> <https://000070.awsstudygroup.com/> |
+| 5 | - Ingest, store, catalog, and transform data using AWS Glue (GUI/Interactive), DataBrew, and EMR. <br> - Perform streaming data analysis with Kinesis Data Analytics. | 04/06/2026 | 04/06/2026 | <https://000072.awsstudygroup.com/> |
+| 6 | - Serve data using Lambda, configure Data Warehouse on Redshift. <br> - Build, improve, and create interactive visual Dashboards on QuickSight. | 05/06/2026 | 05/06/2026 | <https://000072.awsstudygroup.com/> <br> <br> <https://000073.awsstudygroup.com/> |
 
 ### Week 7 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered the entire data processing workflow from ingestion (Ingest), cataloging (Catalog), transformation (Transform) to analysis (Analysis) on AWS.
+* Successfully deployed Serverless architecture with DynamoDB and manually designed stunning, interactive dashboards to report data on QuickSight.
